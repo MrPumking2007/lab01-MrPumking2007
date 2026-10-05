@@ -4,17 +4,25 @@ A starter repository for the CSC10014 Smart Virtual Assistant project.
 
 ## Setup
 
-TODO (Lab 1): write the exact steps a new teammate needs, from a fresh machine to
-running the app and the tests. Your partner will follow them without your help.
+git clone git@github.com:MrPumking2007/lab01-MrPumking2007.git
+cd lab01-MrPumking2007
+python -m venv .venv
+source .venv/Scripts/activate
+pip install -r requirements.txt
+pip install -e .
 
 ## Run
 
-TODO
+python -m assistant "where is the library?"
 
 ## Test
 
-TODO
+pytest -q
 
 ## Project structure
 
-TODO
+- `src/`: Mã nguồn ứng dụng (backend).
+- `tests/`: Chứa các bài kiểm thử tự động.
+- `docs/`: Tài liệu, bản thiết kế dự án và báo cáo.
+- `data/`: Dữ liệu mẫu (chỉ chứa các file nhỏ).
+- `scripts/`: Chứa các đoạn script hỗ trợ chạy dự án.
